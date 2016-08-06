@@ -9,7 +9,7 @@ util_data = {
     'mixed-ar': 0.8564,
     'reserve': 0.8534,
     'arhmm': 0.8515,
-    'pre-known': 0.8574,
+    'pre-known': 0.8662,
 }
 
 all_data = {
@@ -20,7 +20,7 @@ all_data = {
         'mixed-ar': 24.03,
         'reserve': 29.44,
         'arhmm': 28.72,
-        'pre-known': 9.93,
+        'pre-known': 15.07,
     },
     'hour': {
         'ma': 370.05,
@@ -29,7 +29,7 @@ all_data = {
         'mixed-ar': 436.10,
         'reserve': 157.35,
         'arhmm': 226.31,
-        'pre-known': 166.67,
+        'pre-known': 164.95,
     },
     'day': {
         'ma': 70.85,
@@ -38,7 +38,7 @@ all_data = {
         'mixed-ar': 105.15,
         'reserve': 59.97,
         'arhmm': 75.04,
-        'pre-known': 38.17,
+        'pre-known': 43.12,
     },
     'week': {
         'ma': 42.27,
@@ -47,7 +47,7 @@ all_data = {
         'mixed-ar': 63.95,
         'reserve': 36.49,
         'arhmm': 46.17,
-        'pre-known': 23.49,
+        'pre-known': 24.81,
     },
 }
 
