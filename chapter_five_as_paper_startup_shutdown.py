@@ -59,5 +59,5 @@ if __name__ == "__main__":
     if not os.path.isfile('chapter_five_as_paper_startup_shutdown.py'):
         print 'Please run in the same directory as chapter_five_as_paper_startup_shutdown.py'
         exit()
-    plot_model_comparison(hourly_data['vary_startup'], 'vary_startup', [120, 300, 480], 'Startup Delay (s)', loc=2)
-    plot_model_comparison(hourly_data['vary_shutdown'], 'vary_shutdown', [0, 120, 300, 480], 'Shutdown Delay (s)', loc=1)
+    plot_model_comparison(hourly_data['vary_startup'], 'vary_startup', [120, 300, 480], 'Boot Time (s)', loc=2)
+    plot_model_comparison(hourly_data['vary_shutdown'], 'vary_shutdown', [0, 120, 300, 480], 'Shutdown Time (s)', loc=1)

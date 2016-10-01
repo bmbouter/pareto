@@ -112,8 +112,8 @@ def plot_stepwise(data, name):
     ax = f.add_subplot(111)
     ax.step(range(len(data)), data)
     ax.set_xlim(-5, 100)
-    plt.xlabel('Service Time in Slots')
-    plt.ylabel('Probability of Departure in Next Time Slot')
+    plt.xlabel('Service Time Inspection Intervals')
+    plt.ylabel('Probability of Departure During Next Inspection Interval')
     plt.savefig(full_path)
     plt.close()
 
